@@ -1,0 +1,147 @@
+body {
+	font-size: 0.85em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	margin-left: 10px;
+}
+
+nav ul {
+	float: right;
+	margin-top: 20px;
+	margin-right: 100px;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+#signin_container {
+	display: inline-block;
+	width: 65px;
+	height: 30px;
+	background-color: #4485F7;
+	border-radius: 3px;
+	position: absolute;
+	top: 20px;
+	left: 1232px;
+	text-align: center;
+}
+
+#signin {
+	margin-top: 30%;
+	color: white;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+}
+
+#logo {
+	position: absolute;
+	top: 200px;
+	left: 490px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	width: 290px;
+}
+
+#search_bar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 315px;
+	left: 360px;
+	width: 570px;
+	height: 29px;
+}
+
+#buttons {
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 368px;
+	left: 494px;
+}
+
+#buttons input {
+	position: relative;
+	float: center;
+	margin-left: 25px;
+}
+
+#search_btn1 {
+	border: 1px solid #C6C6C6;
+	background-color: #F7F7F7;
+	height: 25px;
+}
+
+#search_btn2 {
+	border: 1px solid #C6C6C6;
+	background-color: #F7F7F7;
+	height: 25px;
+}
+
+#container {
+	text-align: center;
+	display: block;
+}
+
+#container-element {
+	position: absolute;
+	left: 35%;
+}
+
+footer a {
+	text-decoration: none;
+	color: #5E6F6F;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: #5E6F6F;
+}
+
+footer {
+	clear: both;
+	position: absolute;
+	bottom: 0;
+	width: 99%;
+	height: 40px;
+
+	background-color: #E1E6E6;
+	text-align: center;
+	padding: auto;
+	border-top: 1px solid #D9DEDE;
+}
+
+.left {
+	display: inline-block;
+	text-align: center;
+	float: left;
+	margin-left: 2.4%;
+	margin-top: 1%;
+	color: #D9DEDE;
+}
+
+.right {
+	display: inline-block;
+	text-align: center;
+	float: right;
+	margin-right: 2.4%;
+	margin-top: 1%;
+	color: #D9DEDE;
+}
